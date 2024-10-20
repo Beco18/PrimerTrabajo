@@ -1,0 +1,101 @@
+@import url(reset.css);
+body{
+    background-color: rgb(192, 169, 169);
+    width: 100%;
+    height: auto;
+}
+header, footer{
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    h2{
+        font-size: 30px;
+
+    }
+    p{
+        font-size: 15px;
+    }
+}
+.about-me{
+    width: 100%;
+    background-color: rgb(58, 26, 26);
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    .actividad{
+        margin-bottom: 50px;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        width: auto;
+        padding: 10px;
+        input{
+            margin-top: 0;
+            background-color: #333;
+            border-radius: 9px;
+            padding: 5px;
+            width: 500px;
+            color: white;
+            }
+            #description{
+                height: 80px;
+            }
+    }
+    h2{
+        margin-bottom: 0;
+        font-size: 10px;
+        color: white;
+    }
+    p{
+        font-size: 13px;
+    }
+    ul{
+        width: 100%;
+        li{
+            height: auto;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+        }
+    
+    }
+}
+
+img{
+    margin-top: 40px;
+    width: 10rem;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+
+
+.boton{
+    border-radius: 5px;
+    width: 80px;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    width: 200px;
+    background-color: #333;
+    padding: .75rem;
+    padding-top: 0;
+    border-radius: 5px;
+    h3{
+        font-size: 1.5rem;
+
+    }
+}
+.sections{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: .4em;
+}
+
+
